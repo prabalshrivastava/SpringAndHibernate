@@ -1,0 +1,12 @@
+
+k
+java:S2259"IA "NullPointerException" could be thrown; "transaction" is nullable here.(ì‚—ôúÿÿÿÿ8±†¶ðÃ.
+]	java:S1252"<This block of commented-out lines of code should be removed.(µÓç¢øÿÿÿÿ8º¡ÑðÃ.
+X	java:S1258"<This block of commented-out lines of code should be removed.(¶ß½·8º¡ÑðÃ.
+k
+java:S2259*"IA "NullPointerException" could be thrown; "transaction" is nullable here.(ì‚—ôúÿÿÿÿ8¹±¦ðÃ.
+]
+java:S22598"@A "NullPointerException" could be thrown; "tx" is nullable here.(¶ß½·8º¡ÑðÃ.
+~
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "cust".(·¨˜Šúÿÿÿÿ8±Û®ïÃ.
+X	java:S1256"<This block of commented-out lines of code should be removed.(È¸ÖÅ8º¡ÑðÃ.

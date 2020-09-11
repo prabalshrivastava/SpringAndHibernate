@@ -1,0 +1,8 @@
+
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(˜Å†¨
+[	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(Æôõù
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ìžÚÀþÿÿÿÿ
+X	java:S125["<This block of commented-out lines of code should be removed.(¤Š«€8Ù´¾ëÃ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Û›–Øøÿÿÿÿ
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¢°×„úÿÿÿÿ

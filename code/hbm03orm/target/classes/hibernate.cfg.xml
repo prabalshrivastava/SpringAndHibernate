@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.password">prabal</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/sh08</property>
+        <property name="hibernate.connection.username">prabal</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        <property name="current_session_context_class">thread</property>
+
+        <!--        using all the files inside the package-->
+        <!--        <mapping package="sh08"/>-->
+        <!--        <mapping class="sh08.Book"/>-->
+        <!--        <mapping resource="sh08/Book.hbm.xml"/>-->
+
+        <!--        <mapping resource="sh08/Book.hbm.xml"/>-->
+        <mapping resource="sh08/Customer.hbm.xml"/>
+<!--        <mapping class="sh08.Customer"/>-->
+<!--        <mapping package="sh08"/>-->
+
+        <!--        if we keep the mapping file in resources folder-->
+<!--                <mapping resource="Customer.hbm.xml"/>-->
+        <!--        <mapping resource="Book.hbm.xml"/>-->
+    </session-factory>
+</hibernate-configuration>
