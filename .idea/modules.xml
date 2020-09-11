@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringAndHibernate.iml" filepath="$PROJECT_DIR$/.idea/SpringAndHibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/hbm01orm/hbm01orm.iml" filepath="$PROJECT_DIR$/code/hbm01orm/hbm01orm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/hbm02orm/hbm01orm (1).iml" filepath="$PROJECT_DIR$/code/hbm02orm/hbm01orm (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/hbm03orm/hbm01orm (2).iml" filepath="$PROJECT_DIR$/code/hbm03orm/hbm01orm (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/hbm04orm/hbm01orm (3).iml" filepath="$PROJECT_DIR$/code/hbm04orm/hbm01orm (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/hbm05orm/hbm01orm (4).iml" filepath="$PROJECT_DIR$/code/hbm05orm/hbm01orm (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/hbm06orm/hbm01orm (5).iml" filepath="$PROJECT_DIR$/code/hbm06orm/hbm01orm (5).iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/hbm08orm/hbm01orm (6).iml" filepath="$PROJECT_DIR$/code/hbm08orm/hbm01orm (6).iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/day01/jdbcapp.iml" filepath="$PROJECT_DIR$/code/day01/jdbcapp.iml" />
+    </modules>
+  </component>
+</project>

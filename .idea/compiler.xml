@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hbm01orm (1)" />
+        <module name="hbm01orm (2)" />
+        <module name="hbm01orm" />
+        <module name="hbm01orm (3)" />
+        <module name="hbm01orm (4)" />
+        <module name="hbm01orm (5)" />
+        <module name="jdbcapp" />
+        <module name="hbm01orm (6)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="hbm01orm" target="7" />
+      <module name="hbm01orm (1)" target="7" />
+      <module name="hbm01orm (2)" target="7" />
+      <module name="hbm01orm (3)" target="7" />
+      <module name="hbm01orm (4)" target="7" />
+      <module name="hbm01orm (5)" target="7" />
+      <module name="hbm01orm (6)" target="7" />
+      <module name="jdbcapp" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
+  </component>
+</project>

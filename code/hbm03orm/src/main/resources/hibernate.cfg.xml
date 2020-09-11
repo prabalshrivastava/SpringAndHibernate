@@ -19,12 +19,14 @@
         <!--        <mapping resource="sh08/Book.hbm.xml"/>-->
 
         <!--        <mapping resource="sh08/Book.hbm.xml"/>-->
+        <!--        Intellij Idea Does not Support keeping the xml file in the java folder as it builds it in the
+         maven module and is expecting xml to be kept as a part of resources folder -->
         <mapping resource="sh08/Customer.hbm.xml"/>
-<!--        <mapping class="sh08.Customer"/>-->
-<!--        <mapping package="sh08"/>-->
+        <!--        <mapping class="sh08.Customer"/>-->
+        <!--        <mapping package="sh08"/>-->
 
         <!--        if we keep the mapping file in resources folder-->
-<!--                <mapping resource="Customer.hbm.xml"/>-->
+        <!--                <mapping resource="Customer.hbm.xml"/>-->
         <!--        <mapping resource="Book.hbm.xml"/>-->
     </session-factory>
 </hibernate-configuration>

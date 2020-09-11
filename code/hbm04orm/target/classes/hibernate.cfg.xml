@@ -10,7 +10,7 @@
         <property name="hibernate.connection.username">prabal</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
         <property name="hibernate.show_sql">true</property>
-
+        <property name="current_session_context_class">thread</property>
         <mapping class="com.learning.Customer"/>
     </session-factory>
 </hibernate-configuration>
