@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="code:hbm07pikey:target:classes:hibernate.cfg.xml/Hibernate" uuid="dbbb715a-6692-406b-a95d-495ec3f9a71f">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/development/Classes By Nilesh Ghule/SpringAndHibernate/code/hbm07pikey/target/classes/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sh08</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="code:hbm07pikey:src:main:resources:hibernate.cfg.xml/Hibernate" uuid="2761dbf0-4756-4ac3-b324-cb03e69aa99e">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/development/Classes By Nilesh Ghule/SpringAndHibernate/code/hbm07pikey/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sh08</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="day01:day04:hb06pool:src:main:resources:hibernate.cfg.xml/Hibernate" uuid="e356c44a-7c7c-4a91-8d2b-acad2d304f22">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/development/Classes By Nilesh Ghule/SpringAndHibernate/day01/day04/hb06pool/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sh08</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="day01:day03:hb05criteriapk:src:main:resources:hibernate.cfg.xml/Hibernate" uuid="1a06f0e8-3626-4908-83aa-42a52d1d7115">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/development/Classes By Nilesh Ghule/SpringAndHibernate/day01/day03/hb05criteriapk/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sh08</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="day01:day04:hb08reln:src:main:resources:hibernate.cfg.xml/Hibernate" uuid="505350c9-e6a2-4bad-be03-a537a931a983">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/development/Classes By Nilesh Ghule/SpringAndHibernate/day01/day04/hb08reln/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sh08</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="day01:day02:hb01orm:src:main:resources:hibernate.cfg.xml/Hibernate" uuid="1e5b039a-5bd8-45dc-a003-9f38505dc487">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/development/Classes By Nilesh Ghule/SpringAndHibernate/day01/day02/hb01orm/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sh08</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="day01:day04:hb07prikey:src:main:resources:hibernate.cfg.xml/Hibernate" uuid="091cf135-fb36-4fb6-b2eb-31f499467061">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/development/Classes By Nilesh Ghule/SpringAndHibernate/day01/day04/hb07prikey/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sh08</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="day01:day03:hb03xml:src:main:resources:hibernate.cfg.xml/Hibernate" uuid="d8984edf-53a7-4b09-8de7-1a4c1bde0dad">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/development/Classes By Nilesh Ghule/SpringAndHibernate/day01/day03/hb03xml/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sh08</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="dbccadaa-4fc5-4862-a42f-0f813e7659ff">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/development/Classes By Nilesh Ghule/SpringAndHibernate/code/hbm01orm/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sh08</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="a59623a9-dfc8-4cc6-9ab1-eeec0af9612a">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/development/Classes By Nilesh Ghule/SpringAndHibernate/code/hbm03orm/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sh08</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="e6fc87ec-f282-4aec-8aea-3b74919731db">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/development/Classes By Nilesh Ghule/SpringAndHibernate/code/hbm02orm/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sh08</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="85b0e157-b5e6-47f7-99ae-108f459dfe51">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/development/Classes By Nilesh Ghule/SpringAndHibernate/code/hbm05orm/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sh08</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="day01:day02:hb02standard:src:main:resources:hibernate.cfg.xml/Hibernate" uuid="15104b95-8c84-4ebc-b732-7befcd5dada9">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/development/Classes By Nilesh Ghule/SpringAndHibernate/day01/day02/hb02standard/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sh08</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="4163d132-9189-44d0-9510-9c68a36b6d53">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/development/Classes By Nilesh Ghule/SpringAndHibernate/code/hbm08orm/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sh08</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="58e1be69-9835-484b-a2e4-05e42b9b1915">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/development/Classes By Nilesh Ghule/SpringAndHibernate/code/hbm04orm/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sh08</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="dffe92d4-8cda-409f-8be0-a9de13521099">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/development/Classes By Nilesh Ghule/SpringAndHibernate/code/hbm06orm/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sh08</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="day01:day03:hb04stdcrud:src:main:resources:hibernate.cfg.xml/Hibernate" uuid="11cdab90-a0ea-434e-9630-2e1be3b03198">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+D:/development/Classes By Nilesh Ghule/SpringAndHibernate/day01/day03/hb04stdcrud/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sh08</jdbc-url>
+    </data-source>
+  </component>
+</project>

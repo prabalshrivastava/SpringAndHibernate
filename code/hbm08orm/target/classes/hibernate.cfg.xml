@@ -14,5 +14,8 @@
 
         <mapping class="com.learning.Dept"/>
         <mapping class="com.learning.Emp"/>
+        <mapping class="com.learning.Meeting"/>
+        <mapping class="com.learning.Book"/>
+        <mapping class="com.learning.EmpAddress"/>
     </session-factory>
 </hibernate-configuration>

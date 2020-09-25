@@ -1,80 +1,139 @@
 package com.learning;
 
-import javax.persistence.Column;
+import org.hibernate.annotations.*;
+
+import javax.persistence.*;
+import javax.persistence.Cache;
 import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.NamedNativeQueries;
+import javax.persistence.NamedNativeQuery;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
+
+@Cacheable
+@Cache(usage = CacheConcurrencyStrategy.READ_ONLY)
+@NamedQueries(
+        {
+
+                @NamedQuery(
+                        name = "bookSummary",
+                        query = "select new Book(b.id,b.name,b.author) from Book b where b.subject=?1"
+                ),
+                @NamedQuery(
+                        name = "bookSummary1",
+                        query = "select new Book(b.id,b.name,b.author) from Book b where b.subject=:p_subject"
+                )
+        }
+)
+@NamedNativeQueries(
+        {
+                @NamedNativeQuery(
+                        name = "myStoredProcedureCall",
+                        query = "call sp_books_in_range(:pmin,:pmax)",
+                        hints = {
+                                @QueryHint(name = "org.hibernate.CallableStatement", value = "true")
+                        },
+                        resultClass = Book.class
+                )
+        }
+)
+@NamedStoredProcedureQueries(
+        {
+                @NamedStoredProcedureQuery(
+                        name = "spBooksInRange", procedureName = "sp_get_book_price"
+                )
+        }
+)
+@FilterDef(
+        name = "bookFilter",
+        parameters = {
+                @ParamDef(name = "minPrice", type = "double"),
+                @ParamDef(name = "maxPrice", type = "double"),
+                @ParamDef(name = "subjectVal", type = "string")
+        }
+)
+@Filters({
+        @Filter(name = "bookFilter", condition = "price >= :minPrice and price <= :maxPrice"),
+        @Filter(name = "bookFilter", condition = "subject = :subjectVal")
+})
 @Entity
 @Table(name = "books")
 public class Book {
-	@Id
-	@Column(name = "id")
-	private int id;
-	@Column
-	private String name;
-	@Column
-	private String author;
-	@Column
-	private String subject;
-	@Column
-	private double price;
-	
-	public Book() {
+    @Id
+    @Column(name = "id")
+    private int id;
+    @Column
+    private String name;
+    @Column
+    private String author;
+    @Column
+    private String subject;
+    @Column
+    private double price;
 
-	}
+    public Book() {
 
-	public Book(int id, String name, String author, String subject, double price) {
-		this.id = id;
-		this.name = name;
-		this.author = author;
-		this.subject = subject;
-		this.price = price;
-	}
+    }
 
-	public int getId() {
-		return id;
-	}
+    public Book(int id, String name, String author, String subject, double price) {
+        this.id = id;
+        this.name = name;
+        this.author = author;
+        this.subject = subject;
+        this.price = price;
+    }
 
-	public void setId(int id) {
-		this.id = id;
-	}
+    public Book(int id, String name, String author) {
+        this.id = id;
+        this.name = name;
+        this.author = author;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public int getId() {
+        return id;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setId(int id) {
+        this.id = id;
+    }
 
-	public String getAuthor() {
-		return author;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public void setAuthor(String author) {
-		this.author = author;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public String getSubject() {
-		return subject;
-	}
+    public String getAuthor() {
+        return author;
+    }
 
-	public void setSubject(String subject) {
-		this.subject = subject;
-	}
+    public void setAuthor(String author) {
+        this.author = author;
+    }
 
-	public double getPrice() {
-		return price;
-	}
+    public String getSubject() {
+        return subject;
+    }
 
-	public void setPrice(double price) {
-		this.price = price;
-	}
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
 
-	@Override
-	public String toString() {
-		return "Book [id=" + id + ", name=" + name + ", author=" + author + ", subject=" + subject + ", price=" + price
-				+ "]";
-	}
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return "Book [id=" + id + ", name=" + name + ", author=" + author + ", subject=" + subject + ", price=" + price
+                + "]";
+    }
 }

@@ -1,0 +1,7 @@
+
+S
+java:S1128"6Remove this unused import 'org.hibernate.Transaction'.(ìÌè³8 øˆÆ.
+S
+java:S1874"6Remove this use of "createCriteria"; it is deprecated.(½ðÔã8 øˆÆ.
+B
+java:S1172"&Remove these unused method parameters.(Äî88 øˆÆ.
